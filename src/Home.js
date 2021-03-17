@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 const Home = () => {
 
 
-    const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs');
+    const { data: blogs, isPending, error} = useFetch('https://replit.com/@Bharatshara3/react-blog-server#data/db.json');
 
     
    
